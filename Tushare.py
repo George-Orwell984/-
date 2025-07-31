@@ -5,7 +5,7 @@ import rqdatac
 import time
 import os
 # 设置token
-ts.set_token('7e3e86a9f7239691b1b9f8f28faa885806de799400fc2d58f054f43b')
+ts.set_token('')
 pro = ts.pro_api()
 
 # df = pro.news(src='eastmoney', start_date='2025-05-30 09:30:00', end_date='2025-05-30 15:00:00')
@@ -72,7 +72,7 @@ pro = ts.pro_api()
 # print(merged.head())
 
 rqdatac.init(username="license",
-                password="JodaGyQK1heu_XyGDY7TGNf6IOTrOGh6tspwdOqkLy7RzPmuFWbdvkGLN62OOo8CnskgI2r7BU0plEceGCJewrUMRIkhtqwfT3IrUFMzbkNBoyYJm4pZ9bcnv7cOuKGmzAoiQt4Y9ZTr_H_9O5UrovvUiNFd802rdLKXhdBUEKo=gmQOO-AtwUJsrCkG9iYnEpTTbdrsteYQwkzWOoaKM8jh6sjHxQjqrKledyMLmSl-sHGRgynnGK9I-rzPqwocbAJqWgLIDYrZJYH4SKDghTNNvHJVjlrrIVDy8Zv-AfhCoaKxkLfGk5BViJ-cOy1BqDAm4mZvRNlS6WPPaBw3h4w=")
+                password="")
 
 stock_codes = [
     '688271.SH'

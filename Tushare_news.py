@@ -5,11 +5,11 @@ import rqdatac
 import time
 import os
 # 设置token
-ts.set_token('2876ea85cb005fb5fa17c809a98174f2d5aae8b1f830110a5ead6211')
+ts.set_token('')
 pro = ts.pro_api()
 
 rqdatac.init(username="license",
-                password="JodaGyQK1heu_XyGDY7TGNf6IOTrOGh6tspwdOqkLy7RzPmuFWbdvkGLN62OOo8CnskgI2r7BU0plEceGCJewrUMRIkhtqwfT3IrUFMzbkNBoyYJm4pZ9bcnv7cOuKGmzAoiQt4Y9ZTr_H_9O5UrovvUiNFd802rdLKXhdBUEKo=gmQOO-AtwUJsrCkG9iYnEpTTbdrsteYQwkzWOoaKM8jh6sjHxQjqrKledyMLmSl-sHGRgynnGK9I-rzPqwocbAJqWgLIDYrZJYH4SKDghTNNvHJVjlrrIVDy8Zv-AfhCoaKxkLfGk5BViJ-cOy1BqDAm4mZvRNlS6WPPaBw3h4w=")
+                password="")
 
 root_dir = './dataset/2007-2025-no_news'
 news_dir = './dataset/2017-2023-news/test'
